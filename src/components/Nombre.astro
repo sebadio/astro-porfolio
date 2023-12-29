@@ -2,18 +2,17 @@
 interface Props {
   nombre: string;
   subtitulo: string;
+  class?: string;
 }
 
 const { nombre, subtitulo } = Astro.props;
 ---
 
-<div
-  class="rounded-3xl col-start-1 col-span-3 row-start-1 row-span-1 flex flex-col items-center justify-center bg-stone-900"
->
+<div class={Astro.props.class}>
   <h3
     class="text-4xl font-bold text-clip text-transparent bg-gradient-to-br from-violet-900 to to-purple-400 bg-clip-text"
   >
     {nombre}
   </h3>
-  <h4 class="font-thin text-pf-magenta text-2xl">{subtitulo}</h4>
+  <h4 class="font-extralight text-pf-magenta text-2xl">{subtitulo}</h4>
 </div>
