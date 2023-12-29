@@ -1,0 +1,105 @@
+---
+import Git from "./icons/Git.astro";
+import JavaScript from "./icons/JavaScript.astro";
+import React from "./icons/React.astro";
+import Tailwind from "./icons/Tailwind.astro";
+import TypeScript from "./icons/TypeScript.astro";
+import Node from "./icons/Node.astro";
+import Java from "./icons/Java.astro";
+import Python from "./icons/Python.astro";
+import Bash from "./icons/Bash.astro";
+import Docker from "./icons/Docker.astro";
+import Css from "./icons/Css.astro";
+import Html from "./icons/HTML.astro";
+import Svelte from "./icons/Svelte.astro";
+import Next from "./icons/Next.astro";
+import MySQL from "./icons/MySQL.astro";
+
+const TECNOLOGIAS = [
+  {
+    nombre: "JavaScript",
+    class: "size-16 fill-white/80 hover:fill-[#F0DB4F] transition-all",
+    comp: JavaScript,
+  },
+  {
+    nombre: "TypeScript",
+    class: "size-16 fill-white/80 hover:fill-[#007acc] transition-all",
+    comp: TypeScript,
+  },
+  {
+    nombre: "CSS",
+    class: "size-16 fill-white/80 hover:fill-[#1572B6] transition-all",
+    comp: Css,
+  },
+  {
+    nombre: "HTML",
+    class: "size-16 fill-white/80 hover:fill-[#E44D26] transition-all",
+    comp: Html,
+  },
+  {
+    nombre: "React",
+    class: "size-16 fill-white/80 hover:fill-[#61DAFB] transition-all",
+    comp: React,
+  },
+  {
+    nombre: "Nextjs",
+    class: "size-16 fill-white/80 hover:fill-[#000] transition-all",
+    comp: Next,
+  },
+  {
+    nombre: "Svelte",
+    class: "size-16 fill-white/80 hover:fill-[#FF3E00] transition-all",
+    comp: Svelte,
+  },
+  {
+    nombre: "Tailwind",
+    class: "size-16 fill-white/80 hover:fill-[#38b2ac] transition-all",
+    comp: Tailwind,
+  },
+  {
+    nombre: "Node",
+    class: "size-16 fill-white/80 hover:fill-[#83CD29] transition-all",
+    comp: Node,
+  },
+  {
+    nombre: "Java",
+    class: "size-16 fill-white/80 hover:fill-[#EA2D2E] transition-all",
+    comp: Java,
+  },
+  {
+    nombre: "Python",
+    class: "size-16 fill-white/80 hover:fill-[#FFD845] transition-all",
+    comp: Python,
+  },
+  {
+    nombre: "Bash",
+    class: "size-16 fill-white/80 hover:fill-[#000] transition-all",
+    comp: Bash,
+  },
+  {
+    nombre: "Docker",
+    class: "size-16 fill-white/80 hover:fill-[#019BC6] transition-all",
+    comp: Docker,
+  },
+  {
+    nombre: "Git",
+    class: "size-16 fill-white/80 hover:fill-[#f34f29] transition-all",
+    comp: Git,
+  },
+  {
+    nombre: "MySQL",
+    class: "size-16 fill-white/80 hover:fill-[#00618A] transition-all",
+    comp: MySQL,
+  },
+];
+---
+
+<div class={Astro.props.class}>
+  {
+    TECNOLOGIAS.map((tecnologia) => {
+      return (
+        <tecnologia.comp class={tecnologia.class} title={tecnologia.nombre} />
+      );
+    })
+  }
+</div>
