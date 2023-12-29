@@ -82,5 +82,6 @@
   "CHANGE_LANGUAGE": {
     "TEXT": "Cambia el idioma a español",
     "LINK": "/es/"
-  }
+  },
+  "CV_LINK": "/CV_EN.pdf"
 }

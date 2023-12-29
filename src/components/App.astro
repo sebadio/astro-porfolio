@@ -14,9 +14,10 @@ import About from "../components/About.astro";
 import { getI18n } from "../i18n";
 const { currentLocale = "en" } = Astro;
 
-const { ABOUT, CHANGE_LANGUAGE, CURSOS, NOMBRE, PROYECTS, SUBTITLE } = getI18n({
-  currentLocale,
-});
+const { ABOUT, CHANGE_LANGUAGE, CURSOS, NOMBRE, PROYECTS, SUBTITLE, CV_LINK } =
+  getI18n({
+    currentLocale,
+  });
 ---
 
 <Layout title="Sebastian Diaz Porfolio">
@@ -87,7 +88,7 @@ const { ABOUT, CHANGE_LANGUAGE, CURSOS, NOMBRE, PROYECTS, SUBTITLE } = getI18n({
         text-white font-light hover:font-bold text-xl
         bg-violet-700 p-4 rounded-3xl
         transition-all hover:rounded-xl"
-        href="/CV_EN.pdf"
+        href={CV_LINK}
         target="_blank"
         rel="noopener noreferrer"
       >

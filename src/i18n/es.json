@@ -82,5 +82,6 @@
   "CHANGE_LANGUAGE": {
     "TEXT": "Change language to English",
     "LINK": "/"
-  }
+  },
+  "CV_LINK": "/CV_ES.pdf"
 }
