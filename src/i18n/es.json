@@ -1,0 +1,86 @@
+{
+  "NOMBRE": "Sebastián Díaz",
+  "SUBTITLE": "Desarrollador Fullstack",
+  "PROYECTS": {
+    "TITLE": "Proyectos",
+    "PROYECTS": [
+      {
+        "titulo": "PokeWordle",
+        "descripcion": "Wordle fue un éxito en la tendencia de juegos de 2022 por un tiempo, y pensé en hacer un Wordle... ¡pero con Pokémon en su lugar!",
+        "pagina": "https://sebadio.github.io/PokeWordle/",
+        "repositorio": "https://github.com/sebadio/PokeWordle",
+        "imagen": "/projects/pokewordle.webp"
+      },
+      {
+        "titulo": "Generador de Contraseñas",
+        "descripcion": "Un generador de contraseñas seguro, si deseas una contraseña segura para asegurarte de que tu cuenta esté lo más protegida posible, puedes usar esta herramienta para ayudarte.",
+        "pagina": "https://sebadio.github.io/GeneradorPassword/",
+        "repositorio": "https://github.com/sebadio/GeneradorPassword",
+        "imagen": "/projects/password_generator.webp"
+      },
+      {
+        "titulo": "Aplicación de Tareas",
+        "descripcion": "Una simple aplicación de tareas hecha con JS, CSS y HTML",
+        "pagina": "https://sebadio.github.io/ToDoApp/",
+        "repositorio": "https://github.com/sebadio/ToDoApp",
+        "imagen": "/projects/todoapp.webp"
+      },
+      {
+        "titulo": "App Pomodoro con Electron",
+        "descripcion": "Pomodoro es una técnica de concentración que a menudo elijo cuando estudio. Entonces decidí hacer mi propia aplicación de escritorio Pomodoro con Electron.",
+        "pagina": "https://github.com/sebadio/PomodoroApp/releases/latest",
+        "repositorio": "https://github.com/sebadio/PomodoroApp/releases/tag/PomodoroV1.2",
+        "imagen": "/projects/pomodoroapp.webp"
+      },
+      {
+        "titulo": "Galería React",
+        "descripcion": "Una simple galería hecha con React. Todas las imágenes no tienen derechos de autor y fueron puestas para uso libre en Unsplash.",
+        "pagina": "https://sebadio.github.io/React-Gallery/",
+        "repositorio": "https://github.com/sebadio/React-Gallery",
+        "imagen": "/projects/gallery.webp"
+      },
+      {
+        "titulo": "JAP E-Commerce",
+        "descripcion": "JAP ('Jóvenes a Programar') es un programa uruguayo que enseña a los jóvenes del país a programar, esta fue una experiencia de aprendizaje basada en proyectos en la que tuvimos que averiguar cómo hacer ciertos aspectos de la página web.",
+        "pagina": "https://sebadio.github.io/JAP-Workspace/",
+        "repositorio": "https://github.com/sebadio/JAP-Workspace",
+        "imagen": "/projects/jap.webp"
+      },
+      {
+        "titulo": "App del Tiempo",
+        "descripcion": "Una aplicación meteorológica, hecha con JavaScript vainilla y Bootstrap, que utiliza la API gratuita de OpenWeather.",
+        "pagina": "https://sebadio.github.io/App-del-tiempo/",
+        "repositorio": "https://github.com/sebadio/App-del-tiempo",
+        "imagen": "/projects/weather.webp"
+      }
+    ]
+  },
+  "CURSOS": {
+    "TITLE": "Courses",
+    "COURSES": [
+      {
+        "titulo": "Ultimate Web",
+        "descripcion": "Learn web development with HTML, CSS, Bootstrap, ES6 React and Node",
+        "link": "https://www.udemy.com/course/ultimate-web/",
+        "imagen": "/cursos/ultimate_web.webp"
+      },
+      {
+        "titulo": "React: de cero a experto",
+        "descripcion": "Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, MUI, Multiple Routers...",
+        "link": "https://www.udemy.com/course/react-cero-experto/",
+        "imagen": "/cursos/react_cero_experto.webp"
+      },
+      {
+        "titulo": "Learn JS HTML CSS",
+        "descripcion": "Learn the main languages that dominate the Internet: JavaScript, HTML5 and CSS3.",
+        "link": "https://www.udemy.com/course/fundamentos-de-programacion-con-javascript/",
+        "imagen": "/cursos/aprende_js.webp"
+      }
+    ]
+  },
+  "ABOUT": "Soy un desarrollador fullstack de 21 años de <span class=\"font-bold text-green-400\">Uruguay</span>, actualmente cursando un grado en Ciencias de la Computación en la <span class=\"text-red-600 font-extrabold\">Universidad ORT</span> mientras trabajo en <span class=\"text-yellow-500 font-bold\">TCS Uruguay</span>. Me encanta aprender tecnologías nuevas y siempre busco nuevos desafíos para mejorar mis habilidades.",
+  "CHANGE_LANGUAGE": {
+    "TEXT": "Change language to English",
+    "LINK": "/"
+  }
+}

@@ -1,0 +1,152 @@
+---
+import Layout from "../layouts/Layout.astro";
+import {
+  Contacto,
+  Curso,
+  Imagen,
+  Nombre,
+  Proyecto,
+  Tecnologias,
+} from "../components";
+import Clock from "../components/Clock.astro";
+import About from "../components/About.astro";
+
+import { getI18n } from "../i18n";
+const { currentLocale = "en" } = Astro;
+
+const { ABOUT, CHANGE_LANGUAGE, CURSOS, NOMBRE, PROYECTS, SUBTITLE } = getI18n({
+  currentLocale,
+});
+---
+
+<Layout title="Sebastian Diaz Porfolio">
+  <main class="p-4 m-auto my-4 max-w-[1280px]">
+    <section class="grid grid-cols-10 md:auto-rows-[7.1rem] gap-x-2 gap-y-4">
+      <!-- Nombre -->
+      <Nombre
+        class="rounded-3xl col-span-10 row-start-2 md:col-start-1 md:col-span-3 md:row-start-1 md:row-span-1 flex flex-col items-center justify-center bg-stone-900 p-4"
+        nombre={NOMBRE}
+        subtitulo={SUBTITLE}
+      />
+
+      <!-- Sobre Mi -->
+      <About
+        content={ABOUT}
+        class="font-light rounded-3xl col-span-10 row-start-4 md:col-start-4 md:col-span-3 md:row-start-1 md:row-span-3 px-4 py-8 text-xl bg-blue-950 text-pretty flex justify-center items-center"
+      />
+
+      <!-- Español -->
+      <div
+        class="col-span-2 rounded-3xl md:col-start-7 md:col-span-1 md:row-start-1 md:row-span-1
+            bg-[url('/foto/spanish.webp')] bg-cover bg-center bg-no-repeat"
+        title="I know spanish!"
+      >
+      </div>
+      <!-- English -->
+      <div
+        class="col-span-2 rounded-3xl md:col-start-8 md:col-span-1 md:row-start-1 md:row-span-1
+                bg-[url('/foto/english.webp')] bg-cover bg-center bg-no-repeat"
+        title="I know english!"
+      >
+      </div>
+
+      <!-- Cambiar lenguaje -->
+      <a
+        href={CHANGE_LANGUAGE.LINK}
+        class="col-span-6 md:col-start-9 md:col-span-3 md:row-start-1 md:row-span-1
+              text-white font-light hover:font-semibold text-xl text-center
+              flex items-center justify-center
+              bg-gradient-to-r from-red-800 to-blue-950
+              p-4 rounded-3xl
+              transition-all hover:rounded-xl"
+      >
+        {CHANGE_LANGUAGE.TEXT}
+      </a>
+
+      <!-- Imagen -->
+      <Imagen
+        class="rounded-3xl col-span-10 row-start-3 md:col-start-1 md:col-span-3 md:row-start-2 md:row-span-5 bg-violet-950/65 bg-cover bg-center"
+      />
+
+      <Clock
+        class="col-span-10 row-start-8 p-4 md:col-start-4 md:col-span-3 md:row-start-4 md:row-span-2 bg-stone-950 text-white flex justify-center items-center rounded-3xl text-5xl"
+      />
+
+      <!-- Tecnologias -->
+      <Tecnologias
+        class="col-span-10 md:col-start-7 md:col-span-3 md:row-start-2 md:row-span-5 rounded-3xl p-6 bg-purple-950 grid grid-cols-3 items-center justify-items-center gap-2"
+      />
+
+      <!-- Contacto -->
+      <Contacto />
+
+      <!-- CV -->
+      <a
+        class="col-span-10 row-span-1 row-start-5 md:col-start-4 md:col-span-3 md:row-start-6 md:row-span-1
+        flex justify-center items-center
+        text-white font-light hover:font-bold text-xl
+        bg-violet-700 p-4 rounded-3xl
+        transition-all hover:rounded-xl"
+        href="/CV_EN.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        CV</a
+      >
+    </section>
+
+    <!-- Proyectos -->
+    <h1 class="mt-8 mb-2 font-extrabold text-3xl ml-4">{PROYECTS.TITLE}</h1>
+    <section
+      class="grid lg:grid-cols-2 justify-items-center gap-x-8 gap-y-16 bg-neutral-900 p-4 rounded-3xl"
+    >
+      {
+        PROYECTS.PROYECTS.map(
+          ({ descripcion, imagen, pagina, repositorio, titulo }) => {
+            return (
+              <Proyecto
+                titulo={titulo}
+                descripcion={descripcion}
+                pagina={pagina}
+                repositorio={repositorio}
+                imagen={imagen}
+              />
+            );
+          }
+        )
+      }
+    </section>
+
+    <!-- Cursos -->
+    <h1 class="mt-8 mb-2 font-extrabold text-3xl ml-4">{CURSOS.TITLE}</h1>
+    <section
+      class="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-x-8 gap-y-16 bg-neutral-900 px-8 py-4 rounded-3xl"
+    >
+      {
+        CURSOS.COURSES.map(({ descripcion, imagen, link, titulo }) => {
+          return (
+            <Curso
+              titulo={titulo}
+              descripcion={descripcion}
+              link={link}
+              imagen={imagen}
+            />
+          );
+        })
+      }
+    </section>
+  </main>
+
+  <footer
+    class="bg-black min-h-20 flex justify-center items-center rounded-t-3xl max-w-[1262px] mx-auto font-extralight px-8"
+  >
+    © 2023 Sebastian Diaz (sebadio)
+  </footer>
+</Layout>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+</style>

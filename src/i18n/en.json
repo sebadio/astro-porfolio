@@ -1,0 +1,86 @@
+{
+  "NOMBRE": "Sebastián Díaz",
+  "SUBTITLE": "Fullstack Developer",
+  "PROYECTS": {
+    "TITLE": "Proyects",
+    "PROYECTS": [
+      {
+        "titulo": "PokeWordle",
+        "descripcion": "Wordle was a hit in the 2022 game trend for a while, and I thought about making a Wordle... but with Pokemon instead!",
+        "pagina": "https://sebadio.github.io/PokeWordle/",
+        "repositorio": "https://github.com/sebadio/PokeWordle",
+        "imagen": "/projects/pokewordle.webp"
+      },
+      {
+        "titulo": "Password Generator",
+        "descripcion": "A secure Password Generator, if you want a secure password so that you can make sure that your account is safe as possible, you can use this tool to help you.",
+        "pagina": "https://sebadio.github.io/GeneradorPassword/",
+        "repositorio": "https://github.com/sebadio/GeneradorPassword",
+        "imagen": "/projects/password_generator.webp"
+      },
+      {
+        "titulo": "To Do App",
+        "descripcion": "A simple To Do App made with pure JS, CSS & HTML",
+        "pagina": "https://sebadio.github.io/ToDoApp/",
+        "repositorio": "https://github.com/sebadio/ToDoApp",
+        "imagen": "/projects/todoapp.webp"
+      },
+      {
+        "titulo": "Pomodoro App with Electron",
+        "descripcion": "Pomodoro is a technique of concentrating that I often opt when studying. Then I decided to make my own Pomodoro desktop app with Electron.",
+        "pagina": "https://github.com/sebadio/PomodoroApp/releases/latest",
+        "repositorio": "https://github.com/sebadio/PomodoroApp/releases/tag/PomodoroV1.2",
+        "imagen": "/projects/pomodoroapp.webp"
+      },
+      {
+        "titulo": "React-Gallery",
+        "descripcion": "A simple gallery made with React. All of the images have no copyright and were put free to use in Unsplash.",
+        "pagina": "https://sebadio.github.io/React-Gallery/",
+        "repositorio": "https://github.com/sebadio/React-Gallery",
+        "imagen": "/projects/gallery.webp"
+      },
+      {
+        "titulo": "JAP E-Commerce",
+        "descripcion": "JAP ('Jovenes a Programar') is an Uruguayan program that teaches the young people of the country to code, this was a project-based learing experience in wich we had to figure out how to make certain aspects of the webpage.",
+        "pagina": "https://sebadio.github.io/JAP-Workspace/",
+        "repositorio": "https://github.com/sebadio/JAP-Workspace",
+        "imagen": "/projects/jap.webp"
+      },
+      {
+        "titulo": "Weather App",
+        "descripcion": "A weather application, made with vanilla JavaScript and Bootstrap, which makes use of the free OpenWeather API.",
+        "pagina": "https://sebadio.github.io/App-del-tiempo/",
+        "repositorio": "https://github.com/sebadio/App-del-tiempo",
+        "imagen": "/projects/weather.webp"
+      }
+    ]
+  },
+  "CURSOS": {
+    "TITLE": "Courses",
+    "COURSES": [
+      {
+        "titulo": "Ultimate Web",
+        "descripcion": "Learn web development with HTML, CSS, Bootstrap, ES6 React and Node",
+        "link": "https://www.udemy.com/course/ultimate-web/",
+        "imagen": "/cursos/ultimate_web.webp"
+      },
+      {
+        "titulo": "React: de cero a experto",
+        "descripcion": "Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, MUI, Multiple Routers...",
+        "link": "https://www.udemy.com/course/react-cero-experto/",
+        "imagen": "/cursos/react_cero_experto.webp"
+      },
+      {
+        "titulo": "Learn JS HTML CSS",
+        "descripcion": "Learn the main languages that dominate the Internet: JavaScript, HTML5 and CSS3.",
+        "link": "https://www.udemy.com/course/fundamentos-de-programacion-con-javascript/",
+        "imagen": "/cursos/aprende_js.webp"
+      }
+    ]
+  },
+  "ABOUT": "I am a 21 years old <span class=\"font-bold text-green-400\">fullstack developer </span>from <span class=\"text-cyan-400 font-bold\">Uruguay</span>, and currently coursing a degree in Computer Science at the <span class=\"text-red-600 font-extrabold\">ORT University</span> while working at <span class=\"text-yellow-500 font-bold\">TCS Uruguay</span>. I love learning new technologies and I'm always looking for new challenges to improve my skills.",
+  "CHANGE_LANGUAGE": {
+    "TEXT": "Cambia el idioma a español",
+    "LINK": "/es/"
+  }
+}
