@@ -20,7 +20,7 @@ const { ABOUT, CHANGE_LANGUAGE, CURSOS, NOMBRE, PROYECTS, SUBTITLE, CV_LINK } =
   });
 ---
 
-<Layout title="Sebastian Diaz Porfolio">
+<Layout lang={currentLocale} title="Sebastian Diaz Porfolio">
   <main class="p-4 m-auto my-4 max-w-[1280px]">
     <section class="grid grid-cols-10 md:auto-rows-[7.1rem] gap-x-2 gap-y-4">
       <!-- Nombre -->
@@ -54,7 +54,7 @@ const { ABOUT, CHANGE_LANGUAGE, CURSOS, NOMBRE, PROYECTS, SUBTITLE, CV_LINK } =
       <!-- Cambiar lenguaje -->
       <a
         href={CHANGE_LANGUAGE.LINK}
-        class="col-span-6 md:col-start-9 md:col-span-3 md:row-start-1 md:row-span-1
+        class="col-span-6 col-start-3 row-start-1 md:col-start-9 md:col-span-3 md:row-start-1 md:row-span-1
               text-white font-light hover:font-semibold text-xl text-center
               flex items-center justify-center
               bg-gradient-to-r from-red-800 to-blue-950
