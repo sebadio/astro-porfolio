@@ -32,9 +32,10 @@ const { ABOUT, CHANGE_LANGUAGE, CURSOS, NOMBRE, PROYECTS, SUBTITLE, CV_LINK } =
 
       <!-- Sobre Mi -->
       <About
-        content={ABOUT}
         class="font-light rounded-3xl col-span-10 row-start-4 md:col-start-4 md:col-span-3 md:row-start-1 md:row-span-3 px-4 py-8 text-xl bg-blue-950 text-pretty flex justify-center items-center"
-      />
+      >
+        <p set:html={ABOUT} />
+      </About>
 
       <!-- Español -->
       <div
