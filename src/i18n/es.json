@@ -12,6 +12,13 @@
         "imagen": "/projects/pokewordle.webp"
       },
       {
+        "titulo": "Grabadora de Pantalla en Línea",
+        "descripcion": "Una sencilla grabadora de pantalla en línea que te permite grabar tu pantalla y descargar el video a tu PC.",
+        "pagina": "https://sebadio.github.io/screen-recorder/",
+        "repositorio": "https://github.com/sebadio/screen-recorder",
+        "imagen": "/projects/screen-recorder.webp"
+      },
+      {
         "titulo": "Generador de Contraseñas",
         "descripcion": "Un generador de contraseñas seguro, si deseas una contraseña segura para asegurarte de que tu cuenta esté lo más protegida posible, puedes usar esta herramienta para ayudarte.",
         "pagina": "https://sebadio.github.io/GeneradorPassword/",

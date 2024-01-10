@@ -12,6 +12,13 @@
         "imagen": "/projects/pokewordle.webp"
       },
       {
+        "titulo": "Online Screen Recorder",
+        "descripcion": "A simple online screen recorder that allows you to record your screen and download the video to your PC.",
+        "pagina": "https://sebadio.github.io/screen-recorder/",
+        "repositorio": "https://github.com/sebadio/screen-recorder",
+        "imagen": "/projects/screen-recorder.webp"
+      },
+      {
         "titulo": "Password Generator",
         "descripcion": "A secure Password Generator, if you want a secure password so that you can make sure that your account is safe as possible, you can use this tool to help you.",
         "pagina": "https://sebadio.github.io/GeneradorPassword/",
