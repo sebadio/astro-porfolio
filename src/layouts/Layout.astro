@@ -6,11 +6,13 @@ interface Props {
 }
 
 const { title, lang } = Astro.props;
+import { ViewTransitions } from "astro:transitions";
 ---
 
 <!doctype html>
 <html lang={lang}>
   <head>
+    <ViewTransitions />
     <meta charset="UTF-8" />
     <meta
       name="description"
@@ -44,25 +46,24 @@ const { title, lang } = Astro.props;
     </div>
 
     <slot />
+    <style is:global>
+      :root {
+        color-scheme: light dark;
+        --accent: 136, 58, 234;
+        --accent-light: 224, 204, 250;
+        --accent-dark: 49, 10, 101;
+        --accent-gradient: linear-gradient(
+          45deg,
+          rgb(var(--accent)),
+          rgb(var(--accent-light)) 30%,
+          white 60%
+        );
+      }
+      html {
+        font-family: "Outfit Variable", system-ui, sans-serif;
+        background-size: 224px;
+        line-height: 1.5;
+      }
+    </style>
   </body>
 </html>
-
-<style is:global>
-  :root {
-    color-scheme: light dark;
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      rgb(var(--accent-light)) 30%,
-      white 60%
-    );
-  }
-  html {
-    font-family: "Outfit Variable", system-ui, sans-serif;
-    background-size: 224px;
-    line-height: 1.5;
-  }
-</style>
