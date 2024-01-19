@@ -85,7 +85,7 @@
       }
     ]
   },
-  "ABOUT": "Soy un desarrollador fullstack de 21 años de <span class=\"font-bold text-green-400\">Uruguay</span>, actualmente cursando un grado en Ciencias de la Computación en la <span class=\"text-red-600 font-extrabold\">Universidad ORT</span> mientras trabajo en <span class=\"text-yellow-500 font-bold\">TCS Uruguay</span>. Me encanta aprender tecnologías nuevas y siempre busco nuevos desafíos para mejorar mis habilidades.",
+  "ABOUT": "Soy un <span class=\"font-bold text-green-400\">desarrollador fullstack</span> de 21 años nacido en <span class=\"font-bold text-cyan-400\">Uruguay</span>, actualmente cursando la carrera de Licenciatura en Sistemas en la <span class=\"text-red-600 font-extrabold\">Universidad ORT</span> mientras trabajo en <span class=\"text-yellow-500 font-bold\">TCS Uruguay</span>. Me encanta aprender tecnologías nuevas y siempre busco nuevos desafíos para mejorar mis habilidades.",
   "CHANGE_LANGUAGE": {
     "TEXT": "Change language to English",
     "LINK": "/"
