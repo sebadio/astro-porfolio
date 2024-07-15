@@ -20,9 +20,9 @@
       },
       {
         "titulo": "Password Generator",
-        "descripcion": "A secure Password Generator, if you want a secure password so that you can make sure that your account is safe as possible, you can use this tool to help you.",
-        "pagina": "https://sebadio.github.io/GeneradorPassword/",
-        "repositorio": "https://github.com/sebadio/GeneradorPassword",
+        "descripcion": "A secure Password Generator, if you want a secure password so that you can make sure that your accounts are safer, you can use this tool to help you.",
+        "pagina": "https://sebadio.github.io/passgen/",
+        "repositorio": "https://github.com/sebadio/passgen",
         "imagen": "/projects/password_generator.webp"
       },
       {

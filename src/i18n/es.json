@@ -21,8 +21,8 @@
       {
         "titulo": "Generador de Contraseñas",
         "descripcion": "Un generador de contraseñas seguro, si deseas una contraseña segura para asegurarte de que tu cuenta esté lo más protegida posible, puedes usar esta herramienta para ayudarte.",
-        "pagina": "https://sebadio.github.io/GeneradorPassword/",
-        "repositorio": "https://github.com/sebadio/GeneradorPassword",
+        "pagina": "https://sebadio.github.io/passgen/",
+        "repositorio": "https://github.com/sebadio/passgen",
         "imagen": "/projects/password_generator.webp"
       },
       {
